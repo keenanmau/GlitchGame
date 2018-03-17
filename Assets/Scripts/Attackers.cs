@@ -2,15 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class lvl1test : MonoBehaviour {
+public class Attackers : MonoBehaviour {
 
+    [Range (0f, 1.5f)]public float walkSpeed;
 	// Use this for initialization
 	void Start () {
-        Debug.Log(PlayerPrefsManager.getDifficulty());
+		
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
+        transform.Translate(Vector3.left * Time.deltaTime * walkSpeed);
 	}
 }
