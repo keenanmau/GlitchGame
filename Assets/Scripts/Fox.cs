@@ -29,7 +29,7 @@ public class Fox : MonoBehaviour {
         {
             return;
         }
-        Debug.Log("Fox Collison with: " + collider.name);
+       // Debug.Log("Fox Collison with: " + collider.name);
         if (obj.GetComponent<Gravestone>())
         {
             animator.SetTrigger("JumpTrigger");

@@ -5,9 +5,11 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class Attacker : MonoBehaviour {
 
+    [Tooltip("Average time between spawns")]
+    public float spawnTime;
     private float currentSpeed;
     private GameObject attackTarget;
-    private Animator animator;
+    private Animator animator; 
     public float damage;
 
 	void Start () {
@@ -40,7 +42,7 @@ public class Attacker : MonoBehaviour {
             Health health = attackTarget.GetComponent<Health>();
             if(health) {
                 health.takeDamage(damage_next);
-                Debug.Log(name + " Caused damage: " + damage_next);
+                
             }
             
         }
