@@ -7,6 +7,7 @@ public class DefenderSpawner : MonoBehaviour {
     public Camera viewCamera ;
 
     private GameObject DefendersParent;
+    private StarDisplay starDisplay;
 
     private void Start()
     {
@@ -15,16 +16,26 @@ public class DefenderSpawner : MonoBehaviour {
         {
             DefendersParent = new GameObject("Defenders");
         }
+        starDisplay = FindObjectOfType<StarDisplay>();
     }
 
     private void OnMouseDown()
     {
-        if (Button.selectedDefender)
-        {
-            Vector2 snappedPoint = Snap2Grid(CalculateWorldPointOfMouseClick());
-            GameObject def = Instantiate(Button.selectedDefender, snappedPoint, Quaternion.identity);
-            def.transform.parent = DefendersParent.transform;
+        if (Button.selectedDefender) {
+            int cost = Button.selectedDefender.GetComponent<Defender>().starCost;
+            bool canAfford = starDisplay.UseStars(cost) == StarDisplay.Status.SUCCESS;
+            if (canAfford) {
+                SpawnDefender();
+            }
+        } else {
+            print("No Defender Selected");
         }
+    }
+
+    private void SpawnDefender() {
+        Vector2 snappedPoint = Snap2Grid(CalculateWorldPointOfMouseClick());
+        GameObject def = Instantiate(Button.selectedDefender, snappedPoint, Quaternion.identity);
+        def.transform.parent = DefendersParent.transform;
     }
 
     Vector2 CalculateWorldPointOfMouseClick()

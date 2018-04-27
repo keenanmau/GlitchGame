@@ -1,0 +1,92 @@
+Initialize engine version: 5.6.1f1 (2860b30f0b54)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 Ti (ID=0x1b06)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+    Driver:   23.21.13.8813
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\Salence\Documents\Unity Projects\GlitchGame\v1_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Salence\Documents\Unity Projects\GlitchGame\v1_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Salence\Documents\Unity Projects\GlitchGame\v1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Salence\Documents\Unity Projects\GlitchGame\v1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Salence\Documents\Unity Projects\GlitchGame\v1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Salence\Documents\Unity Projects\GlitchGame\v1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Salence\Documents\Unity Projects\GlitchGame\v1_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Salence\Documents\Unity Projects\GlitchGame\v1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.094 seconds
+Platform assembly: D:\Salence\Documents\Unity Projects\GlitchGame\v1_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\Salence\Documents\Unity Projects\GlitchGame\v1_Data\Managed\System.dll (this message is harmless)
+desktop: 2560x1440 59Hz; virtual: 4480x1440 at -1920,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 3.008000 ms
+Don't destroy on load Music Manager
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnable called
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Playing Clip: game_loaded_2 (UnityEngine.AudioClip)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 2d50 -> priority: 1 
+  Thread -> id: 29c4 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.787848 ms
+Playing Clip: Groddle-Theme-Snappy-Mix_1291876544 (UnityEngine.AudioClip)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 309.
+Total: 0.249248 ms (FindLiveObjects: 0.017822 ms CreateObjectMapping: 0.014312 ms MarkObjects: 0.177147 ms  DeleteObjects: 0.039426 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.502818 ms
+Playing Clip: 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 344.
+Total: 0.220624 ms (FindLiveObjects: 0.019172 ms CreateObjectMapping: 0.010801 ms MarkObjects: 0.159324 ms  DeleteObjects: 0.030784 ms)
+
+Music Manager (MusicManager)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.386700 ms
+Playing Clip: Groddle-Theme-Snappy-Mix_1291876544 (UnityEngine.AudioClip)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 309.
+Total: 0.180658 ms (FindLiveObjects: 0.017012 ms CreateObjectMapping: 0.010261 ms MarkObjects: 0.139611 ms  DeleteObjects: 0.013502 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.294886 ms
+Playing Clip: Spooky_Groddle_1291879214 (UnityEngine.AudioClip)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 710.
+Total: 0.265181 ms (FindLiveObjects: 0.025113 ms CreateObjectMapping: 0.021873 ms MarkObjects: 0.180658 ms  DeleteObjects: 0.036455 ms)
+
+Star Total insufficient
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Star Total insufficient
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+

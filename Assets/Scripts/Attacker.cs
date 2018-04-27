@@ -6,7 +6,7 @@ using UnityEngine;
 public class Attacker : MonoBehaviour {
 
     [Tooltip("Average time between spawns")]
-    public float spawnTime;
+    public float spawnDelay;
     private float currentSpeed;
     private GameObject attackTarget;
     private Animator animator; 

@@ -14,6 +14,7 @@ public class Fox : MonoBehaviour {
 	void Start () {
         animator = GetComponent<Animator>();
         attacker = GetComponent<Attacker>();
+        jump_available = true;
 	}
 	
 	// Update is called once per frame
@@ -30,9 +31,10 @@ public class Fox : MonoBehaviour {
             return;
         }
        // Debug.Log("Fox Collison with: " + collider.name);
-        if (obj.GetComponent<Gravestone>())
+        if (obj.GetComponent<Gravestone>() && jump_available)
         {
             animator.SetTrigger("JumpTrigger");
+            jump_available = false;
         }
         else
         {
