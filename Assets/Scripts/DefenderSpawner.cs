@@ -40,14 +40,11 @@ public class DefenderSpawner : MonoBehaviour {
 
     Vector2 CalculateWorldPointOfMouseClick()
     {
-        
         float mouseX = Input.mousePosition.x;
         float mouseY = Input.mousePosition.y;
         float distancefromcamera = 10f;
         Vector3 triplet = new Vector3(mouseX, mouseY, distancefromcamera);
         Vector2 worldpoint = viewCamera.ScreenToWorldPoint(triplet);
-
-
         return worldpoint;
     }
 
